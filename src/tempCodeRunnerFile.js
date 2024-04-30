@@ -1,4 +1,3 @@
-const getColor = (color) => {
-    return allColors[color]
-
+for (let i = 1; i <= count; i++){
+    rows.push(padRow(i , count));
 }
