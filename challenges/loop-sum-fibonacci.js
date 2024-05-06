@@ -36,7 +36,7 @@ for (let x = 3; x <= limit; x++) {
     result.push(next);
     first = second;
     second = next;
-    result.toString();
+    
 }
 
-console.log(result.join(", "));
+console.log(result.join(", ").toString());
